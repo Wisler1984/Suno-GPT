@@ -1,0 +1,6 @@
+services:
+  chromewislerpicai:
+    image: chromewislerpicai
+    build:
+      context: .
+      dockerfile: ./Dockerfile
